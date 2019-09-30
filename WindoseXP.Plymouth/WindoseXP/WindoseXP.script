@@ -38,10 +38,10 @@ fun refresh ()
       {
         progress++;
 
-        if (progress >= 33)
+        if (progress > 101)
           progress = 0;
 
-        new_progress_box.image = Image("throbber-0" + progress + ".png");
+        new_progress_box.image = Image("throbber-0" + progress/2 + ".png");
         progress_box.sprite.SetImage(new_progress_box.image);
         progress_box.sprite.SetOpacity(1);
       }
