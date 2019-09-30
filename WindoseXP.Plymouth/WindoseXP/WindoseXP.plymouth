@@ -1,0 +1,10 @@
+[Plymouth Theme]
+Name=WindoseXP
+Description=plymouth
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/WindoseXP
+ScriptFile=/share/plymouth/themes/WindoseXP/WindoseXP.script
+
+
